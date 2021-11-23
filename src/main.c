@@ -11,7 +11,7 @@ int main() {
     int* or = malloc( 3*sizeof(int));
     double** mat = momentGeometrique( img, 1 );
 
-    printf("%lf \t %lf\n%lf\n\n", mat[0][0], mat[1][0], mat[0][1] );
+    printf("%lf\t%lf\t%lf\n\n", mat[0][0], mat[1][0], mat[0][1] );
 
     double a, b , c;
     a = sommeMoment( img, 0, 0);
